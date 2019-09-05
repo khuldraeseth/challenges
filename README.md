@@ -13,11 +13,11 @@ click -> clone or download
 
 after making changes locally (say you solved the challenge, YAY!)in case you want to push the changes to the master repository, type in:
 
-git status (this should tell you thet you're on the branch master, if it doesn't, don't panic, share a screenshot of what it says in the grup and someone will help you)
+git status (this should tell you that you're on the branch master, if it doesn't, don't panic, share a screenshot of what it says in the grup and someone will help you)
 
 git add .
 git commit -m"specify in a few words what is your commit about here"
-git push origin  
+git push origin master 
 
 Aaaand you're all set! You're killin it!!! ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿
 
