@@ -1,0 +1,88 @@
+*** Please create a folder with the challenge number and the technology you used to solve it
+*** like this c2-javascript
+_________________________________________________________________________________________
+
+
+****** Beginner level********************************************************************
+-------------------------------------- 1--------------------------------------------------
+Write a function that returns the length of a string. Make your function recursive.
+
+Examples:
+
+length("apple") ➞ 5
+
+length("make") ➞ 4
+
+length("a") ➞ 1
+
+length("") ➞ 0
+
+----------------------------------------2--------------------------------------------------
+Create a function that takes an array and returns the first element.
+
+Examples
+getFirstValue([1, 2, 3]) ➞ 1
+
+getFirstValue([80, 5, 100]) ➞ 80
+
+getFirstValue([-500, 0, 50]) ➞ -500
+
+
+*Notes The first element in an array always has an index of 0.
+
+
+
+
+
+****** Intermediate level******************************************************************
+----------------------------------------3--------------------------------------------------
+Create a function that takes an array of items, removes all duplicate items and returns a new array in the same sequential order as the old array (minus duplicates).
+
+Examples
+
+removeDups([1, 0, 1, 0]) ➞ [1, 0]
+
+removeDups(["The", "big", "cat"]) ➞ ["The", "big", "cat"]
+
+removeDups(["John", "Taylor", "John"]) ➞ ["John", "Taylor"]
+
+
+*Notes Tests contain arrays with both strings and numbers.
+Tests are case sensitive.
+
+
+----------------------------------------4--------------------------------------------------
+Given an array of numbers, write a function that returns an array that...
+
+Has all duplicate elements removed.
+Is sorted from least to greatest value.
+
+
+Examples
+uniqueSort([1, 2, 4, 3]) ➞ [1, 2, 3, 4]
+
+uniqueSort([1, 4, 4, 4, 4, 4, 3, 2, 1, 2]) ➞ [1, 2, 3, 4]
+
+uniqueSort([6, 7, 3, 2, 1]) ➞ [1, 2, 3, 6, 7]
+
+
+
+
+
+****** Expert level************************************************************************
+----------------------------------------5--------------------------------------------------
+Write a function that accepts a positive integer between 0 and 999 inclusive and returns a string representation of that integer written in English.
+
+
+Examples
+numToEng(0) ➞ "zero"
+
+numToEng(18) ➞ "eighteen"
+
+numToEng(126) ➞ "one hundred twenty six"
+
+numToEng(909) ➞ "nine hundred nine"
+
+
+*Notes There are no hyphens used (e.g. "thirty five" not "thirty-five").
+The word "and" is not used (e.g. "one hundred one" not "one hundred and one").
